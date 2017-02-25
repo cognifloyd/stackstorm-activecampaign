@@ -29,7 +29,7 @@ class ActiveCampaignAction(Action):
             failure_reason = (
                 'Failed to perform action. status code: %s; response body: %s' % (
                     response.status_code,
-                    response.json
+                    response.json()
                 )
             )
             self.logger.exception(failure_reason)
