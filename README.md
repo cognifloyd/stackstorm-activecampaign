@@ -12,6 +12,10 @@ to `/opt/stackstorm/configs/activecampaign.yaml` and edit as required.
 * ``url`` - ActiveCampaign account URL
 * ``api_key`` - API Key
 
+**Note** : When modifying the configuration in `/opt/stackstorm/configs/` please
+           remember to tell StackStorm to load these new values by running
+           `st2ctl reload --register-configs`
+
 ### Webhook Sensor Configuration
 
 Webhook structure is http://host:port/path/action
