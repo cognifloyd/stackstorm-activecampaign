@@ -41,4 +41,4 @@ parameters:
     description: 'Leave empty for default sorting. Example: 01, 01D, 02, 02D, etc.'
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script

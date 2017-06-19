@@ -25,4 +25,4 @@ parameters:
     description: The ID of the contact you want to view within an automation
     required: false
     type: string
-runner_type: run-python
+runner_type: python-script

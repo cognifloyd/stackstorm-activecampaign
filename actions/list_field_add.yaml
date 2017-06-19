@@ -45,4 +45,4 @@ parameters:
       4 = Radio, 5 = Dropdown, 6 = Hidden field, 7 = List Box, 9 = Date'
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script

@@ -43,4 +43,4 @@ parameters:
     description: 'Direction of sort (possible values: ASC or DESC).'
     required: false
     type: string
-runner_type: run-python
+runner_type: python-script

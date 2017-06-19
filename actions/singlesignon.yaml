@@ -32,4 +32,4 @@ parameters:
     description: 'this is the user you are logging in as. Example: ''admin'''
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script

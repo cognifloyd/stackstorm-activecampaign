@@ -32,4 +32,4 @@ parameters:
       this or contact_email is required)
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script

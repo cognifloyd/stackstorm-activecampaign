@@ -63,4 +63,4 @@ parameters:
     description: Username. Username cannot be changed!
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script

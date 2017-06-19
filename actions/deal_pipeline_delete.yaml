@@ -22,4 +22,4 @@ parameters:
       pipeline IDs with "deal_pipeline_list" call)'
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script

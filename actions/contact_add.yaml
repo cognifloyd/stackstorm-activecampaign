@@ -88,4 +88,4 @@ parameters:
     description: 'Tags for this contact (comma-separated). Example: "tag1, tag2, etc"'
     required: false
     type: string
-runner_type: run-python
+runner_type: python-script

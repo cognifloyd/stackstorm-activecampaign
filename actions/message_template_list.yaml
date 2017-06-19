@@ -22,4 +22,4 @@ parameters:
       Pass 'all' to return all templates.
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script

@@ -22,4 +22,4 @@ parameters:
       "deal_list" call)'
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script

@@ -230,4 +230,4 @@ parameters:
     description: 'Force unsubscribe links. Example: ''on'''
     required: false
     type: string
-runner_type: run-python
+runner_type: python-script
