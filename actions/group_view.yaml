@@ -21,4 +21,4 @@ parameters:
     description: ID of the User Group you wish to view
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script

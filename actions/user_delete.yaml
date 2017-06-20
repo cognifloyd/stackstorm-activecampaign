@@ -26,4 +26,4 @@ parameters:
     description: ID of the user you wish to delete
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script

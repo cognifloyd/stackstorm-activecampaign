@@ -95,4 +95,4 @@ parameters:
     description: Reason for unsubscribing. Include list ID in brackets.
     required: false
     type: object
-runner_type: run-python
+runner_type: python-script

@@ -33,4 +33,4 @@ parameters:
     description: Contact ID to associate the note with.
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script

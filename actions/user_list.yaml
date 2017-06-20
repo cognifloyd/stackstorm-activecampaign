@@ -22,4 +22,4 @@ parameters:
       return all users (for "Admin" Group users only!).
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script

@@ -26,4 +26,4 @@ parameters:
       all be greater than 3.
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script

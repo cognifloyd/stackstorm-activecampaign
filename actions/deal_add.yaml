@@ -54,4 +54,4 @@ parameters:
     description: 'Value of the new deal in dollars. Example: ''450.00'' or 450'
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script

@@ -21,4 +21,4 @@ parameters:
     description: 'ID of the form HTML you wish to fetch. Example: 1000'
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script

@@ -21,4 +21,4 @@ parameters:
     description: 'Hash of the contact you are looking up. Example: ''89acb12a60fd44897dfr23edb29f0a63'''
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script

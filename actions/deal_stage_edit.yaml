@@ -26,4 +26,4 @@ parameters:
     description: 'ID of the pipeline of the deal stage. Example: ''23'''
     required: false
     type: string
-runner_type: run-python
+runner_type: python-script

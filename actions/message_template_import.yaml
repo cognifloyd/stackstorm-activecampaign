@@ -35,4 +35,4 @@ parameters:
     description: 'Array of URL''s to XML files. Example: http://mysite.com/template.xml'
     required: true
     type: object
-runner_type: run-python
+runner_type: python-script

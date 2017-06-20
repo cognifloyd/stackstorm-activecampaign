@@ -70,4 +70,4 @@ parameters:
     description: 'Title of software. Example: ''ActiveCampaign Email Marketing'''
     required: false
     type: string
-runner_type: run-python
+runner_type: python-script

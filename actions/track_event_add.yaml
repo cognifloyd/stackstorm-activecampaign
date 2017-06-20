@@ -30,4 +30,4 @@ parameters:
     description: See below example for the data you can include here.
     required: false
     type: string
-runner_type: run-python
+runner_type: python-script

@@ -25,4 +25,4 @@ parameters:
     description: Message ID associated with the above campaign
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script

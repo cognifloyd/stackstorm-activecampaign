@@ -46,4 +46,4 @@ parameters:
       email even if campaign is set to use MIME).
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script

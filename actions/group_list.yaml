@@ -21,4 +21,4 @@ parameters:
     description: A comma-separated list of User Group ID's you wish to view.
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script

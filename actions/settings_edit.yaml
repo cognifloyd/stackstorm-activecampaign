@@ -29,4 +29,4 @@ parameters:
     description: 'Time format. Example: %H:%M'
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script

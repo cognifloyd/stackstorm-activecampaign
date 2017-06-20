@@ -35,4 +35,4 @@ parameters:
     description: Offset to start returning records from (default is 0)
     required: true
     type: string
-runner_type: run-python
+runner_type: python-script
