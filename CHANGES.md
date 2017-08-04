@@ -1,5 +1,9 @@
 # Change Log
 
+# 0.3.1
+
+- Fixed `ac_webhook` sensor stuck with timeouts by enabling Flask app threading #3
+
 # 0.3.0
 
 - Updated action `runner_type` from `run-python` to `python-script`
