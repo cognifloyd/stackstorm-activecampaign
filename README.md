@@ -1,4 +1,5 @@
 # ActiveCampaign Integration pack
+[![Build Status](https://circleci.com/gh/StackStorm-Exchange/stackstorm-activecampaign/tree/master.svg?style=shield)](https://circleci.com/gh/StackStorm-Exchange/stackstorm-activecampaign)
 
 API: http://www.activecampaign.com/api/overview.php
 
