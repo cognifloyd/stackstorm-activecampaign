@@ -35,7 +35,7 @@ for method in method_list:
         method_dict[method]['description'] = method_description
         method_args_table = method_soup.find_all('table', {"class": "innertable"})
         if len(method_args_table) < 2 or method_args_table is None:
-            print "skipping innertables..."
+            print("skipping innertables...")
             continue
         method_args_table_rows = method_args_table[0].find_all('tr')
         del method_args_table_rows[0]

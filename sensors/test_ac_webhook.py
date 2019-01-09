@@ -10,7 +10,7 @@ conf = yaml.load(open(config_yaml))
 
 url = 'http://localhost:{}/{}/{}'.format(
     conf['webhook']['port'], conf['webhook']['path'], ACTION)
-print "Posting to %s..." % url
+print("Posting to %s..." % (url))
 
 headers = {
     'X-Google-Apps-Metadata': 'domain=mockable.io,host=*.mockable.io',
