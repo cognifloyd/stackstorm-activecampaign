@@ -25,7 +25,7 @@ class ActiveCampaignAction(Action):
         )
 
         results = response.json()
-        if results['result_code'] is not 1:
+        if results['result_code'] != 1:
             failure_reason = (
                 'Failed to perform action. status code: %s; response body: %s' % (
                     response.status_code,
