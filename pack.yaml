@@ -5,3 +5,6 @@ author: DoriftoShoes
 description: 'Integration with ActiveCampaign'
 email: patrick@stackstorm.com
 version: 0.3.3
+python_versions:
+  - "2"
+  - "3"
