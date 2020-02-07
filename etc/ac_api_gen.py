@@ -1,6 +1,8 @@
+from __future__ import print_function
+
 import yaml
 import re
-import urllib2
+from six.moves.urllib.request import build_opener as urllib_build_opener
 from bs4 import BeautifulSoup
 
 import time
@@ -10,7 +12,7 @@ method_dict = {}
 base_overview_url = 'http://www.activecampaign.com/api/overview.php'
 base_example_url = 'http://www.activecampaign.com/api/example.php'
 
-opener = urllib2.build_opener()
+opener = urllib_build_opener()
 opener.addheaders = [('User-agent', 'Mozilla/5.0')]
 api_doc_main = opener.open(base_overview_url)
 
@@ -26,7 +28,7 @@ for method in method_list:
     if method != 'View another method...':
         method_dict[method] = {'params': {}}
         method_url = '%s?call=%s' % (base_example_url, method)
-        method_opener = urllib2.build_opener()
+        method_opener = urllib_build_opener()
         method_opener.addheaders = [('User-agent', 'Mozilla/5.0')]
         method_page = method_opener.open(method_url)
         method_soup = BeautifulSoup(method_page, 'html5lib')
@@ -92,7 +94,7 @@ for method in method_dict:
         out_description = method_dict[method]['params'][param]['description']
         output_dict['parameters'][param]['description'] = out_description
 
-    print yaml.safe_dump(output_dict, default_flow_style=False)
+    print(yaml.safe_dump(output_dict, default_flow_style=False))
     fh = open(file_name, 'w')
     fh.write(yaml.safe_dump(output_dict, default_flow_style=False))
     fh.close()

@@ -1,5 +1,5 @@
 import requests
-import urlparse
+from six.moves.urllib.parse import urljoin
 
 from st2common.runners.base_action import Action
 
@@ -13,7 +13,7 @@ class ActiveCampaignAction(Action):
         return self._get_request(kwargs)
 
     def _get_request(self, params):
-        url = urlparse.urljoin(self.config['url'], 'admin/api.php')
+        url = urljoin(self.config['url'], 'admin/api.php')
         headers = {}
         headers['Content-Type'] = 'application/x-www-form-urlencoded'
 
